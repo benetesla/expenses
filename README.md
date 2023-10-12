@@ -1,6 +1,6 @@
 # Aplicativo "Expenses"
 
-![Expenses Logo](expenselog.png)![1697131877978](image/README/1697131877978.png)
+![1697131877978](image/README/1697131877978.png)
 
 ## Visão Geral
 
@@ -51,6 +51,6 @@ Se você deseja contribuir para o desenvolvimento do aplicativo "Expenses", fiqu
 
 ## Contato
 
-Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco em [contato@expensesapp.com](mailto:contato@expensesapp.com).
+Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco em [contato@expensesapp.com](mailto: benevaniosantos930@gmail.com).
 
 Obrigado por escolher o aplicativo "Expenses" para o controle eficiente das suas despesas diárias!![1697131864691](image/README/1697131864691.png)
