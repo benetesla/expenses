@@ -1,6 +1,6 @@
 # Aplicativo "Expenses"
 
-![Expenses Logo](expenselog.png)![1697131877978](image/README/1697131877978.png)
+![1697131877978](image/README/1697131877978.png)
 
 ## Visão Geral
 
@@ -47,10 +47,10 @@ O aplicativo "Expenses" oferece as seguintes funcionalidades:
 
 Se você deseja contribuir para o desenvolvimento do aplicativo "Expenses", fique à vontade para criar um fork do repositório no GitHub e enviar suas solicitações de pull. Estamos abertos a melhorias e novas funcionalidades!
 
-[Repositório no GitHub](https://github.com/seu-usuario/expenses-app)
+[Repositório no GitHub](https://github.com/benetesla/expenses)
 
 ## Contato
 
-Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco em [contato@expensesapp.com](mailto:contato@expensesapp.com).
+Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco em [benevaniosantos930@gmail.com](mailto: benevaniosantos930@gmail.com).
 
 Obrigado por escolher o aplicativo "Expenses" para o controle eficiente das suas despesas diárias!![1697131864691](image/README/1697131864691.png)
