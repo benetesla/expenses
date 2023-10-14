@@ -26,18 +26,6 @@ O aplicativo "Expenses" oferece as seguintes funcionalidades:
 
 
 
-*Adicionar nova despesa*
-
-## Como Usar
-
-1. Baixe e instale o aplicativo "Expenses" no seu dispositivo Android ou iOS a partir da loja de aplicativos correspondente.
-2. Ao abrir o aplicativo, você verá a tela principal listando todas as despesas registradas.
-3. Toque no botão de adicionar (+) para inserir uma nova despesa.
-4. Preencha os campos obrigatórios, como data, valor e descrição.
-5. Se desejar, adicione uma categoria à despesa.
-6. Toque em "Salvar" para registrar a despesa.
-7. Para excluir uma despesa, deslize para a esquerda na despesa desejada e selecione "Excluir".
-8. Use as opções de pesquisa, gráficos e estatísticas para uma análise mais aprofundada dos seus gastos.
 
 ## Requisitos
 
