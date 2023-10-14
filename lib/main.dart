@@ -35,6 +35,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _transactions = [];
+  var _showChart = false;
 
   List<Transaction> get _recentTransction {
     return _transactions.where((tr) {
@@ -75,25 +76,47 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Despesas Pessoais By: Bene',
-          style: TextStyle(fontFamily: 'openSans'),
-        ),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.add),
-            onPressed: () => _openTransactionFormModal(context),
-          ),
-        ],
+    final appBar = AppBar(
+      title: const Text(
+        'Despesas Pessoais',
       ),
+      actions: [
+        IconButton(
+          onPressed: () => _openTransactionFormModal(context),
+          icon: const Icon(Icons.add),
+        )
+      ],
+    );
+    final availableHeight = MediaQuery.of(context).size.height -
+        appBar.preferredSize.height -
+        MediaQuery.of(context).padding.top;
+    return Scaffold(
+      appBar: appBar,
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Chart(recentTransaction: _recentTransction),
-            TransactionList(_transactions, _deleteTransaction),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Exibir Gráfico'),
+                Switch(
+                  value: _showChart,
+                  onChanged: (value) {
+                    setState(() {
+                      _showChart = value;
+                    });
+                  },
+                ),
+              ],
+            ),
+            _showChart
+                ? Container(
+                    height: availableHeight * .3,
+                    child: Chart(recentTransaction: _recentTransction))
+                : Container(
+                    height: availableHeight * .7,
+                    child: TransactionList(_transactions, _deleteTransaction)),
           ],
         ),
       ),
